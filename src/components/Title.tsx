@@ -3,8 +3,8 @@ import computerImage from "./computer-image.png";
 
 export default function Title() {
   return (
-    <div className="w-computerWidth relative flex justify-center">
-      <h1 className="title-text text-titleSize absolute mt-32 text-titleText">
+    <div className="relative flex w-computerWidth justify-center">
+      <h1 className="title-text text-textColour absolute mt-32 text-titleSize">
         HANNA DAWIT
       </h1>
       <div className="toggle-container">

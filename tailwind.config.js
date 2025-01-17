@@ -7,8 +7,7 @@ export default {
     extend: {
       colors: {
         globalBg: "#53669e",
-        navbarText: "#130035",
-        titleText: "#130035",
+        textColour: "#130035",
       },
       fontSize: {
         titleSize: "84px",
