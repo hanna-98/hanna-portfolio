@@ -1,11 +1,11 @@
-import projectIcon from "./project-icon.png";
 import Navigation from "./Navigation";
+import projectIcon from "../../public/project-icon.png";
 export default function Projects() {
   return (
     <div className="flex flex-col">
       <Navigation />
-      <div className="text-textColour mx-4 flex justify-evenly p-4">
-        <div className="m-2 flex flex-col p-4">
+      <div className="mx-4 flex justify-evenly p-4 text-textColour">
+        <div className="m-2 flex w-fit flex-col p-4">
           <div className="flex justify-center">
             <img className="size-24" src={projectIcon} />
           </div>
@@ -17,7 +17,7 @@ export default function Projects() {
             personalised cuisine recommendations.
           </p>
         </div>
-        <div className="m-2 flex flex-col p-4">
+        <div className="m-2 flex w-fit flex-col p-4">
           <div className="flex justify-center">
             <img className="size-24" src={projectIcon} />
           </div>
@@ -28,7 +28,7 @@ export default function Projects() {
             rules and providing a simple, interactive experience.
           </p>
         </div>
-        <div className="m-2 flex flex-col p-4">
+        <div className="m-2 flex w-fit flex-col p-4">
           <div className="flex justify-center">
             <img className="size-24" src={projectIcon} />
           </div>
