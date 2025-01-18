@@ -6,7 +6,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename="/hanna-portfolio">
       <App />
     </HashRouter>
   </React.StrictMode>,
