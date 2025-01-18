@@ -4,8 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://hanna-98.github.io/hanna-portfolio",
-
-
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -16,7 +14,7 @@
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "flowbite-react": "^0.8.0",
