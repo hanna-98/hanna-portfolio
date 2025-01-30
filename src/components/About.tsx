@@ -2,9 +2,9 @@ import Navigation from "./Navigation";
 
 export default function About() {
   return (
-    <div className="flex flex-col align-middle text-textColour">
+    <div className="flex flex-col align-middle text-xl text-textColour md:text-3xl">
       <Navigation />
-      <div className="m-4 mt-8 px-16">
+      <div className="mt-2 px-4 pb-4 md:m-4 md:px-16">
         <p className="pb-6">
           Hi! I'm Hanna. I am a mathematician turned software engineer based in
           London. I specialise in building intuitive front-end applications

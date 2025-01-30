@@ -3,9 +3,9 @@ import projectIcon from "../../public/project-icon.png";
 
 export default function Projects() {
   return (
-    <div className="text-lightText flex min-h-screen flex-col items-center bg-globalBg px-4">
+    <div className="flex min-h-screen flex-col items-center bg-globalBg px-4 text-lightText">
       <Navigation />
-      <div className="grid w-full max-w-6xl gap-8 text-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-4 grid w-full max-w-6xl gap-8 text-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div className="rounded-lg bg-blue-950 p-6 shadow-lg">
           <div className="flex justify-center">
             <img className="size-24" src={projectIcon} />

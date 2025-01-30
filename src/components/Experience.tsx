@@ -4,10 +4,10 @@ export default function Experience() {
   return (
     <div className="flex flex-col">
       <Navigation />
-      <div className="text-textColour m-8 px-10">
-        <div className="flex flex-col pb-10">
-          <h2 className="text-center text-5xl">Fluro (Loans) 2022-2023</h2>
-          <ul className="flex list-disc flex-col px-20">
+      <div className="text-textColour md:mx-4 md:px-4">
+        <div className="mt-2 flex flex-col pb-10">
+          <h2 className="text-center text-3xl md:text-4xl">Fluro 2022-2023</h2>
+          <ul className="flex list-disc flex-col px-8 text-xl md:text-3xl">
             <li>
               Developed an admin tool in Kotlin to simulate loan applications
               for better platform testing.
@@ -40,8 +40,8 @@ export default function Experience() {
         </div>
 
         <div className="flex flex-col pb-10">
-          <h2 className="text-center text-5xl">Digital Futures 2021</h2>
-          <ul className="flex list-disc flex-col px-20">
+          <h2 className="text-center text-3xl">Digital Futures 2021</h2>
+          <ul className="flex list-disc flex-col px-8 text-xl md:text-3xl">
             <li>
               Completed an intensive 12-week program, transitioning to a
               full-time software engineer role and contributing to internal and
