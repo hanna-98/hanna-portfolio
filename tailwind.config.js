@@ -8,6 +8,7 @@ export default {
       colors: {
         globalBg: "#53669e",
         textColour: "#130035",
+        lightText: "#B1C4FF",
       },
       fontSize: {
         titleSize: "84px",

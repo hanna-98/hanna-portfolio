@@ -6,7 +6,7 @@ import Experience from "./components/Experience";
 
 function App() {
   return (
-    <div className="bg-globalBg min-h-screen">
+    <div className="min-h-screen w-full bg-globalBg p-4">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-me" element={<About />} />
